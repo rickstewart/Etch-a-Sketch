@@ -1,0 +1,147 @@
+/* Modified Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, small, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, footer, header, menu, nav, ruby, section, audio, video {
+    border         : 0;
+    font-size      : 100%;
+    font           : inherit;
+    vertical-align : baseline;
+    margin         : 0;
+    padding        : 0;
+    }
+
+article, aside, footer, header, menu, nav, section {
+    display : block;
+    }
+
+body {
+    line-height : 1;
+    }
+
+ol, ul {
+    list-style : none;
+    }
+
+blockquote, q {
+    quotes : none;
+    }
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content : none;
+    }
+
+table {
+    border-collapse : collapse;
+    border-spacing  : 0;
+    }
+
+body {
+    background-color : #FFFFFF;
+    display          : block;
+    overflow         : hidden;
+    }
+
+#container {
+    position  : absolute;
+    top       : 0;
+    left      : 0;
+    width     : 100%;
+    font-size : 0;
+    }
+
+#header {
+    display          : inline-block;
+    position         : fixed;
+    z-index          : 2;
+    width            : 99%;
+    height           : 100px;
+    border           : 8px solid #222222;
+    font-size        : 20px;
+    font-weight      : 200;
+    font-variant     : small-caps;
+    letter-spacing   : 1px;
+    color            : #aaa;
+    background-color : #222222;
+    }
+
+#leftside {
+    position : absolute;
+    display  : inline-block;
+    border   : 1px solid #222222;
+    margin   : 5px 0 0 20px;
+    height   : 98px;
+    width    : 217px;
+    left     : 0;
+    }
+
+#middle {
+    position    : relative;
+    display     : inline-block;
+    border      : 1px solid #222222;
+    height      : 98px;
+    width       : 360px;
+    margin      : 0 0 0 35%;
+    font-size   : 26px;
+    line-height : 1.3;
+    }
+
+#middle p {
+    text-align : center;
+    vert-align : middle;
+    border     : 1px solid #222222;
+    margin     : 16px 0 0 0;
+    }
+
+#clear {
+    clear   : both;
+    display : block;
+    border  : 1px solid #222222;
+    }
+
+#underpart {
+    display          : block;
+    position         : relative;
+    top              : 116px;
+    width            : auto;
+    height           : 22px;
+    border           : 1px solid #2E2E37;
+    border-top       : 1px solid #7f1000;
+    margin           : 0 auto;
+    padding          : 11px 0 0 0;
+    background-color : #2E2E37;
+    }
+
+#squaresWrapper {
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    height:auto;
+    top: 200px;
+    left: 400px;
+    border: solid 3px red;
+    }
+
+.newSquare {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid 1px black;
+    }
+
+#footer {
+    position         : fixed;
+    display          : block;
+    border-bottom    : 4px solid #7f1000;
+    font-family      : 'Tangerine', serif;
+    font-size        : 26px;
+    background-color : #2E2E37;
+    color            : #bbbbbb;
+    text-align       : right;
+    width            : 100%;
+    height           : 40px;
+    margin           : auto;
+    bottom           : 0;
+    left             : 0;
+    }
+
+#footer p {
+    margin : 13px 18px 0 0;
+    }
