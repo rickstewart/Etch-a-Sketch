@@ -84,10 +84,10 @@ body {
     }
 
 #middle p {
-    text-align : center;
-    vert-align : middle;
-    border     : 1px solid #222222;
-    margin     : 16px 0 0 0;
+    text-align     : center;
+    vertical-align : middle;
+    border         : 1px solid #222222;
+    margin         : 16px 0 0 0;
     }
 
 #clear {
@@ -109,21 +109,96 @@ body {
     background-color : #2E2E37;
     }
 
+#buttonWrapper {
+    position         : absolute;
+    display          : inline-block;
+    width            : 130px;
+    height           : 360px;
+    top              : 200px;
+    left             : 100px;
+    border           : solid 1px black;
+    color            : #0b7a7a;
+    background-color : #becad3;
+    font-size        : 18px;
+    letter-spacing   : 1px;
+    line-height      : 140%;
+    }
+
+#buttonWrapper form {
+    padding : 12px 0 0 10px;
+    }
+
+#color {
+    padding-top : 12px;
+    }
+
+#clearButton {
+    position         : absolute;
+    display          : block;
+    width            : 100px;
+    height           : 40px;
+    top              : 590px;
+    left             : 112px;
+    font-weight      : bold;
+    font-size        : 16px;
+    text-align       : center;
+    line-height      : 40px; /* centers the text vertically within div when line-height = height */
+    border           : 1px solid #CCCCCC;
+    border-radius    : 6px;
+    box-shadow       : 3px 3px 1px #888888;
+    background-color : #becad3;
+    color            : #0b7a7a;
+    }
+
+#clearButton:hover {
+    position         : absolute;
+    display          : block;
+    width            : 100px;
+    height           : 40px;
+    top              : 590px;
+    left             : 112px;
+    font-weight      : bold;
+    text-align       : center;
+    line-height      : 40px;
+    border           : 1px solid #bab4b8;
+    border-radius    : 6px;
+    box-shadow       : 3px 3px 1px #888888;
+    background-color : #aeaec1;
+    color            : #0b7a7a;
+    }
+
+#clearButton:active {
+    position         : absolute;
+    display          : block;
+    width            : 100px;
+    height           : 40px;
+    top              : 590px;
+    left             : 112px;
+    font-weight      : bold;
+    text-align       : center;
+    line-height      : 40px;
+    border           : 1px solid #832400;
+    border-radius    : 6px;
+    box-shadow       : 3px 3px 1px #888888;
+    background-color : #bab4b8;
+    color            : #0b7a7a;
+    }
+
 #squaresWrapper {
-    position: absolute;
-    display: inline-block;
-    width: 500px;
-    height:auto;
-    top: 200px;
-    left: 400px;
-    border: solid 3px red;
+    position : absolute;
+    display  : inline-block;
+    width    : 500px;
+    height   : auto;
+    top      : 200px;
+    left     : 300px;
+    border   : solid 3px red;
     }
 
 .newSquare {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border: solid 1px black;
+    display : inline-block;
+    width   : 10px;
+    height  : 10px;
+    border  : solid 1px black;
     }
 
 #footer {

@@ -20,11 +20,43 @@
             <div id="underpart">
             </div>
             <div id="main">
-                <div id="buttonWrapper"></div>
+                <div id="buttonWrapper">
+                    <form>
+                        <fieldset>
+                            <legend>Color Mode</legend>
+                            <input type="radio" name="mode" id="basic" checked/><label for="basic">Basic</label>
+                            <br/>
+                            <input type="radio" name="mode" id="random"/><label for="random">Random</label>
+                            <br/>
+                        </fieldset>
+                        <fieldset>
+                            <legend id="color">Stylus Color</legend>
+                            <input type="radio" class=color name="color" id="black" value="#000000"/><label for="black">Black</label>
+                            <br/>
+                            <input type="radio" class=color name="color" id="white" value="#FFFFFF"/><label for="white">White</label>
+                            <br/>
+                            <input type="radio" class=color name="color" id="red" value="#FF0000" checked/><label for="red">Red</label>
+                            <br/>
+                            <input type="radio" class=color name="color" id="green" value="#00FF00"/><label for="green">Green</label>
+                            <br/>
+                            <input type="radio" class=color name="color" id="blue" value="#0000FF"/><label for="blue">Blue</label>
+                            <br/>
+                            <input type="radio" class=color name="color" id="yellow" value="#FFFF00"/><label for="yellow">Yellow</label>
+                            <br/>
+                            <input type="radio" class=color name="color" id="orange" value="#FF6E00"/><label for="orange">Orange</label>
+                            <br/>
+                            <input type="radio" class=color name="color" id="purple" value="#820082" /><label for="purple">Purple</label>
+                            <br/>
+                            <input type="radio" class=color name="color" id="grey" value="#808080"/><label for="grey">Grey</label>
+                            <br/>
+                        </fieldset>
+                    </form>
+                </div>
+                <div id="clearButton">Clear</div>
                 <div id="squaresWrapper"></div>
             </div>
             <div id="footer">
-                <p>Student: Richard Stewart &nbsp; &nbsp; December 12 2014</p>
+                <p>Student: Richard Stewart &nbsp; &nbsp; January 01 2015</p>
             </div>
         </div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
