@@ -128,8 +128,13 @@ body {
     padding : 12px 0 0 10px;
     }
 
+#mode {
+    color : black;
+    }
+
 #color {
     padding-top : 12px;
+    color       : black;
     }
 
 #clearButton {
